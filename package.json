@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/supabase": "^0.3.1",
+    "@nuxtjs/tailwindcss": "^6.4.0",
+    "autoprefixer": "^10.4.13",
+    "nuxt": "^3.2.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "@fontsource/orbitron": "^4.5.11",
+    "@pinia/nuxt": "^0.4.7",
+    "@supabase/supabase-js": "^2.8.0",
+    "@types/animejs": "^3.1.7",
+    "@vueuse/core": "^9.13.0",
+    "animejs": "^3.2.1",
+    "dayjs": "^1.11.7",
+    "pinia": "^2.0.32",
+    "unique-names-generator": "^4.7.1",
+    "vee-validate": "^4.7.4",
+    "yup": "^1.0.0"
+  }
+}
