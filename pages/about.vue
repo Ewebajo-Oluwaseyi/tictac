@@ -6,8 +6,13 @@
 
     <div class="space-y-6 mt-20 justify-center flex flex-col items-center">
       <p>
-        Tic Tac Go is a game created by
-        <a class="underline text-blue" target="_blank" href="">Seyi</a>
+        Tic Tac is a game created by
+        <a
+          class="underline text-blue"
+          target="_blank"
+          href="https://twitter.com/sheifunmi_"
+          >Seyi</a
+        >
       </p>
 
       <Button as="router-link" to="/" theme="secondary"

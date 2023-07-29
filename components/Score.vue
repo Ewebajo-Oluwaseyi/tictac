@@ -7,7 +7,7 @@ const { game } = storeToRefs(store);
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center mt-10">
     <h4 class="uppercase font-medium text-white tracking-[0.25em] mb-1">
       Score
     </h4>
@@ -23,7 +23,7 @@ const { game } = storeToRefs(store);
         }"
       ></div>
     </div>
-    <p class="uppercase font-medium text-gray-400 text-xs">Best of 5</p>
+    <!-- <p class="uppercase font-medium text-gray-400 text-xs">Best of 5</p> -->
   </div>
 </template>
 

@@ -31,7 +31,7 @@ useIntervalFn(() => {
         v-if="roundWinner"
         class="h-2/3 flex items-center justify-center relative"
       >
-        <IconConfetti :player="roundWinner" />
+        <!-- <IconConfetti :player="roundWinner" /> -->
 
         <svg
           class="cup"

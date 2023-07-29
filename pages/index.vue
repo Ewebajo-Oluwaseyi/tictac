@@ -1,10 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div
+  <!-- <div
     class="background-svg-container absolute inset-0 flex justify-center items-center px-12"
   >
-    <svg
+     <svg
       class="background-svg w-full"
       viewBox="0 0 329 329"
       fill="none"
@@ -68,7 +68,7 @@
         fill="#1D5353"
       />
     </svg>
-  </div>
+  </div> -->
   <div class="h-full flex flex-col px-24 space-y-4 justify-center">
     <Button class="button-animation" as="router-link" to="/new-game"
       >New game</Button
@@ -76,7 +76,7 @@
     <Button class="button-animation" as="router-link" to="/join-game"
       >Join game</Button
     >
-    <Button as="router-link" to="/about" class="button-animation">About</Button>
+    <!-- <Button as="router-link" to="/about" class="button-animation">About</Button> -->
   </div>
 </template>
 

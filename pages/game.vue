@@ -14,11 +14,11 @@ const { game } = storeToRefs(store);
     <GridGame class="mx-auto" />
     <Players />
     <Score />
-    <TurnTimer />
+    <!-- <TurnTimer /> -->
   </div>
   <ModalsModalInstructions v-if="game.state === 'instructions'" />
   <ModalsModalCountdown v-else-if="game.state === 'countdown'" />
   <ModalsModalRoundWinner v-if="game.state === 'round-winner'" />
-  <ModalsModalRoundGameWinner v-else-if="game.state === 'game-winner'" />
+  <ModalsModalRoundGameWinner v-else-if="game.state == 'game-winner'" />
   <ModalsModalDisconnect v-else-if="game.state === 'disconnected'" />
 </template>

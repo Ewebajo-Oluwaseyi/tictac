@@ -131,8 +131,8 @@ export const useGameStore = defineStore("game", () => {
 
   //Recieve game state from the other player and update our local state
   function onReceiveState(state: { game: Game; grid: GameGrid }) {
-    console.log("Receive state");
-    console.log({ state });
+    // console.log("Receive state");
+    // console.log({ state });
     Object.assign(game, state.game);
     grid.value = state.grid;
   }
